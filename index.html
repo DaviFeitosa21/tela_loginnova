@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/visual.css">
+    <title>Tela de login</title>
+</head>
+<body>
+    <div class="container">
+        <h4>Logar na conta</h4>
+        <form class="login" id="formulario-login">
+            <input type="text" placeholder="Usuário" id="usuario">
+            <div id="msg-aviso-usuario">Por favor, preencha o campo de usuario</div>
+            <input type="password" placeholder="Senha" id="senha">
+            <div id="msg-aviso-senha">Por favor, preencha o campo da senha!</div>
+            <div id="msg-aviso">Por favor, preencha os campos em branco!</div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="sugestoes">
+            <div class="lembrar">
+                <input type="checkbox">
+                <span>Lembrar senha</span>
+            </div>
+            <div class="senha">
+                <span>Esqueceu a senha?</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
